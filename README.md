@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-(Add your deployed application link here)
+https://jaweedahmad123.github.io/edutechai/
 
 ---
 
