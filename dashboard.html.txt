@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Study Chatbot</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        input, select {
+            width: 280px;
+            padding: 12px;
+            margin: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+        }
+
+        button {
+            padding: 12px 25px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #388E3C;
+        }
+
+        #chatBox {
+            width: 70%;
+            max-width: 700px;
+            height: 350px;
+            margin: 20px auto;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            overflow-y: auto;
+            text-align: left;
+        }
+
+        .user {
+            color: blue;
+            background: #e8f0ff;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 8px;
+        }
+
+        .bot {
+            color: green;
+            background: #e9ffe9;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 8px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<h2>📚 AI Study Chatbot</h2>
+
+
+<input 
+    id="studentName" 
+    placeholder="Enter your name"
+>
+<br>
+
+
+<select id="subject">
+
+    <option value="">
+        Select Subject
+    </option>
+
+    <option value="Biology">
+        Biology
+    </option>
+
+    <option value="Physics">
+        Physics
+    </option>
+
+    <option value="Chemistry">
+        Chemistry
+    </option>
+
+    <option value="English">
+        English
+    </option>
+
+</select>
+
+<br>
+
+
+<div id="chatBox">
+
+</div>
+
+
+<input 
+    id="userInput" 
+    placeholder="Ask your question..."
+>
+
+
+<br>
+
+
+<button onclick="getAnswer()">
+    Send
+</button>
+
+
+
+<!-- IMPORTANT: script.js must be in the same folder -->
+<script src="./script.js"></script>
+
+
+</body>
+</html>
