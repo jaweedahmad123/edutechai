@@ -130,4 +130,4 @@ EduTeach AI uses custom instructions for its AI tutor:
 
 # 👨‍💻 Author
 
-**Javeed Ahmad**
+**Jawad Ahmad**
